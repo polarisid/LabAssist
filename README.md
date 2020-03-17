@@ -1,6 +1,9 @@
 # LabAssist
 Um programa assistente para laboratório
 
+Email: 
+Danielcarvalhorst@gmail.com
+
 #### Dia 1
 Criação do sistema de login, HTML e CSS e da pagina de cadastramento.
 #### Dia 2
