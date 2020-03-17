@@ -1,0 +1,113 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background: url("labimage3.jpg");
+    background-size: cover;
+    
+}
+.loginbox{
+    text-align: center;
+    width: 320px;
+    height: 450px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.loginbox input{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-radius: 0px;
+}
+.loginbox button{
+    font-weight: bold;
+    border: none;
+    background: rgb(19, 167, 19);
+}
+.loginbox button:hover{
+    cursor: pointer;
+    background: #9fff9f;
+    color: #000;    
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+}
+.loginbox a:hover{
+    color: rgba(0, 46, 197, 0.658);
+    
+}
+h1{
+    color: black;
+}
+
+
+.logo{
+    width: 290px;
+    height: 100px;
+}
+
+
+body, header{
+   /* display: flex;*/
+    text-align: center;
+    padding: 1em;
+    border:none;
+    border-radius: 1em;
+    
+}
+div{
+    padding: 0.3em;
+}
+
+.error{
+    color: rgb(255, 0, 0);
+    font: 1em sans-serif;
+}
+
+
+h1{
+    font-family: 'Roboto', sans-serif;  
+}
+
+.alert, .error{
+
+    font-weight: bold;
+}
+a{
+    padding: 2px;
+    background: #cfcfcf;
+    text-align: center;
+    border-radius: 0.5em;
+    font: 0.5em sans-serif;
+}
+
+input, button{
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto  e fazer curvas*/
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0.4em;
+
+    /* para ajustar os textos de dentro*/
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right:15px;
+
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid rgb(73, 73, 73);
+}
+

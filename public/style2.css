@@ -1,0 +1,81 @@
+
+body{
+    text-align: center;
+    border: 2px solid #3a9999;
+}
+html{
+    /*background-image:url("labimage3.jpg");*/
+    background-color: rgba(122, 122, 122, 0.5);
+    
+}
+.btns{
+    background-image:url("logoIFMA.png"); 
+    background-size: 60px;
+    margin-top: 50px;
+    text-align: center;
+    /*background: transparent url("logoIFMA.png") no-repeat center top;*/
+}
+
+.efeito{
+    border: none;
+    color: #ffffff;
+    padding: 30px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+
+
+
+
+
+.efeito-1{
+    background-color:rgb(4, 4, 179);
+    transform-style: preserve-3d;
+}
+
+.efeito-1:after{
+    top: -100%;
+    left: 0px;
+    width: 200px; /*aqui mudei pra 200 por bug, o certo seria 100*/
+    padding: 30px;
+    position: absolute;
+    background: #3a9999;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: "On-line";
+    transform-origin: left bottom;
+    transform: rotateX(90deg);  
+      
+}
+
+
+
+.efeito-1:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+
+/*
+.efeito:before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    transition: all 2s ease;  
+}*/
+
+/*.efeito-1:hover::before{
+    width: 100%;
+}

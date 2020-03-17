@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/style3.css">
+</head>
+
+<body>
+    <div class="registerbox">
+        <form method="post" action="/register" name="formuser">
+            
+            <label for="nameid">Primeiro Nome:</label> <br>
+            <input type="text" name="user[fname]" id="nameid" required> <br>
+            
+            Ultimo Nome<input type="text" name="user[lname]" required> <br>
+            Senha<input type="password" name="user[password]" required> <br>
+            Repita a Senha: <input type="password" name="user[password2]" required> <br>
+            <p>{{msg3}}</p>
+            Email: <input type="email" name="user[email]" required> <br>   
+            <input type="submit" value="Submit">   
+            
+            <p>{{msg1}}</p>
+            <p>{{msg2}}</p>
+            
+
+        </div>
+    </form>
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>LAB ASSIST</title>
+        <link rel="stylesheet" type="text/css" href="/style.css">
+    </head>
+
+
+    <body>
+        
+       <header>
+           
+
+            
+
+       </header>
+
+
+        <section class="form">
+           <form action="/" method="POST"> 
+               
+                <div class="loginbox">
+                  
+
+                    <img src="/logoIFMA.png" title ="logoIFMA" alt="Este é o logo do IFMA" class="logo">
+                                
+                        <!--<img src="logoIFMA.png" title ="logoIFMA" alt="Este é o logo do IFMA" width= "293" height= "100" >-->
+                    
+                   
+
+                    <h1>LAB ASSIST</h1>
+                    <div>
+                        <!-- <label for="email_id">Email Acadêmico </label> -->
+                        <input id="email_id" name="email" type = "email"  placeholder="Email Acadêmico" required>
+                    </div>
+
+                    <div>
+                        <!--<label for="senha_id"> Senha </label> -->
+                        <input id="senha_id" name = "senha" type = "password" placeholder="Senha" required>
+                    </div>
+
+                    
+                    <div class="button">
+                        <button type="submit">Login</button>
+                    </div>
+
+                    <div class="error">
+                        <p>{{message}}</p>
+                    </div>
+                    
+                    <div class="alert">
+                         <a href="/register.html"> Cadastre-se</a>
+                    </div>
+                    
+                </div>    
+                
+            </form>
+
+            
+           
+            
+
+        </section>
+
+        <footer>PAI TÁ DEV</footer>
+
+        <script src="/script.js"></script>
+
+    </body>
+
+</html> 
